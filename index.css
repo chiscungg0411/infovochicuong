@@ -210,7 +210,7 @@ a {
   text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.25);
 }
 
-p a{
+.info-section a{
   color: #ffffff;
   text-decoration: none;
 }
