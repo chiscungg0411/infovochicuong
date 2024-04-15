@@ -93,13 +93,36 @@ body {
 }
 
 
-.avatar {
+/* .avatar {
   margin-top: 20px;
   border-radius: 50%;
   border: 5px dashed #ffffff;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+} */
+
+.avatar-1 {
+  margin-top: 20px;
+  border-radius: 50%;
+/*   border: 5px dashed #ffffff; */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
   
 }
+
+#avatar-2{
+  border: 5px dashed #ffffff;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin #avatar-2 {
+        0% {
+            border-color: red;
+            transform: rotate(0deg);
+        }
+        100% {
+            border-color: red;
+            transform: rotate(360deg);
+        }
+    }
 
 a {
   text-decoration: none;
