@@ -99,6 +99,15 @@ a {
   font-weight: bold;
   text-shadow: 1.5px 2.5px 1px rgba(0, 0, 0, 0.25);
 }
+
+.over-section{
+  font-size: 15px;
+  color: #2980b9;
+  padding-left: 10px;
+  border-left: 6px solid #2980b9;
+  background-color: #ffffff;
+}
+
 .section p {
   font-size: 18px;
   color: #666666;
@@ -133,7 +142,7 @@ a {
   text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.25);
 }
 
-a .info-section{
+p a{
   color: #ffffff;
   text-decoration: none;
 }
