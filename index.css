@@ -92,34 +92,20 @@ body {
   padding: 40px;
 }
 
-
-/* .avatar {
-  margin-top: 20px;
+.avatar {
+/*   margin-top: 20px;
   border-radius: 50%;
   border: 5px dashed #ffffff;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-} */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); */
+  position: relative;
+  display: inline-block;
+}
 
-.avatar-1 {
+.avatar {
   margin-top: 20px;
   border-radius: 50%;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-  animation: none;
-}
-
-
-#avatar-2{
   border: 5px dashed #ffffff;
-  animation: rotate 5s linear infinite;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 a {
