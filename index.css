@@ -67,7 +67,6 @@ a {
 
 .section {
   margin-bottom: 30px;
-/*   border-left: 5px solid #2980b9; */
   border: 3px dashed #2e6ca4;
   padding-left: 15px;
   padding-right: 4px;
@@ -79,14 +78,15 @@ a {
   border-radius: 10px;
 }
 
-
-
-
 .section.visible {
   opacity: 1;
   transform: translateY(0);
 }
 .info-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.over-section.visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -114,6 +114,11 @@ a {
   line-height: 1.6;
   font-weight: bold;
 }
+
+.over-section h2{
+  color: #2980b9;
+}
+
 .info-section {
   margin-bottom: 30px;
   border: 10px outset #FFFFFF;
@@ -170,7 +175,7 @@ p a{
   color: #666666;
 }
 
-.progress-bar {
+/* .progress-bar {
   height: 17px;
   width: 100%;
   background-color: #dddddd; 
@@ -182,4 +187,4 @@ p a{
   height: 100%;
   border-radius: 8px;
   background-color: #3498db;
-}
+} */
