@@ -1,0 +1,176 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: url("https://cdn.glitch.global/715f6b7e-8fd1-4fee-8cc2-2e85cf1551c6/12ed1aa4-0d9a-4cec-aba5-f609685265dd.image.png?v=1713179962837");
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+}
+
+
+.avatar {
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 5px dashed #ffffff;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: url("https://cdn.glitch.global/715f6b7e-8fd1-4fee-8cc2-2e85cf1551c6/94143a9a-158d-4292-b4fb-9ea10b9cb27d.image.png?v=1712938971074");
+  color: #ffffff;
+  height: 430px;
+  padding: 30px;
+  border-radius: 8px;
+  opacity: -10;
+  transform: translateY(0%); /* Dịch chuyển lên trên */
+  animation: dropFromTop 1.4s ease forwards; /* Áp dụng animation */
+  border: 10px inset #ffffff;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+}
+@keyframes dropFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.header h1 {
+  font-size: 33.5px;
+  margin-bottom: 10px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  color: #ffffff;
+}
+.header p {
+  font-size: 19px;
+  color: #d5dbd6;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 30px;
+/*   border-left: 5px solid #2980b9; */
+  border: 3px dashed #2e6ca4;
+  padding-left: 15px;
+  padding-right: 4px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  background-color: #ffffff;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+
+
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.info-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.section h2 {
+  font-size: 25.5px;
+  margin-bottom: 10px;
+  color: #2980b9;
+  font-weight: bold;
+  text-shadow: 1.5px 2.5px 1px rgba(0, 0, 0, 0.25);
+}
+.section p {
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.6;
+  font-weight: bold;
+}
+.info-section {
+  margin-bottom: 30px;
+  border: 10px outset #FFFFFF;
+  padding-left: 15px;
+  padding-right: 4px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  background-color:#0854A8;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.info-section h2 {
+  font-size: 25.5px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1.5px 2.5px 1px rgba(0, 0, 0, 0.25);
+}
+.info-section p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.6;
+  font-weight: bold;
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+a .info-section{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.info-section .icon {
+  margin-right: 10px;
+  color: #FFFFFF;
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  margin-right: 10px;
+  color: #2980b9;
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #666666;
+  padding: 50px;
+}
+.footer p {
+  font-size: 14px;
+  color: #666666;
+}
+
+.progress-bar {
+  height: 17px;
+  width: 100%;
+  background-color: #dddddd; 
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.25);
+}
+.progress-bar-inner {
+  height: 100%;
+  border-radius: 8px;
+  background-color: #3498db;
+}

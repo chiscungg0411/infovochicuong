@@ -1,72 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info Võ Chí Cường</title>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/fcf5c140-4c45-464e-9b47-184796a3ba95/klipartz.com.jpg?v=1687425423504"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
+    <div class="container">
+      <div class="header">
         <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
+          class="avatar"
+          width="240"
+          src="https://cdn.glitch.global/715f6b7e-8fd1-4fee-8cc2-2e85cf1551c6/4beb9543-39c7-4280-96d3-9066f432462e.image.png?v=1712871341182"
         />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
+        <h1>VÕ CHÍ CƯỜNG</h1>
+        <p>Sinh viên IT năm 2 vừa cute vừa chung tình <3</p>
+      </div>
 
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+      <div class="info-section">
+       <h2>MẠNG XÃ HỘI</h2>
+        <p>
+          <i class="icon fa-brands fa-facebook"></i
+          ><a href="https://www.facebook.com/ChiCuongDeyy/" target="_blank">
+            /ChiCuongDeyy
+          </a>
+        </p>
+        <p>
+          <i class="icon fab fa-instagram"></i
+          ><a href="https://www.instagram.com/scorpio_chis.cungg/">
+            scorpio_chis.cungg</a
+          >
+        </p>
+        <p>
+          <i class="icon fa-brands fa-threads"></i
+          ><a href="https://www.threads.net/@scorpio_chis.cungg">
+            @scorpio_chis.cungg</a
+          >
+        </p>
+        <p>
+          <i class="icon fab fa-tiktok"></i
+          ><a href="https://www.tiktok.com/@chis.cungg_"> @chis.cungg_</a>
+        </p>
+        <p>
+          <i class="icon fa-brands fa-x-twitter"></i>
+          <a href="https://twitter.com/chiscungdeyy">chiscungdeyy</a>
+        </p>
+        <p>
+          <i class="icon fab fa-github"></i>
+          <a href="https://github.com/chiscungg0411"> chiscungg0411</a>
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>
+          <i class="fa-regular fa-copyright"></i> Copyright 2024 by Vo Chi Cuong
+        </p>
+      </div>
+
+<!--       <div class="section">
+        <h2>TRÌNH ĐỘ HỌC VẤN</h2>
+        <p>
+          <i class="icon fas fa-graduation-cap"></i>THPT Phan Chu Trinh - Phan
+          Thiết, Bình Thuận (2019 - 2022).
+        </p>
+        <p>
+          <i class="icon fas fa-graduation-cap"></i>Đại học Văn Hiến - Chuyên
+          ngành: An toàn thông tin.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>KINH NGHIỆM LÀM VIỆC</h2>
+        <p>
+          <i class="icon fas fa-briefcase"></i
+          ><a href="https://www.facebook.com/mimibeauty.133"
+            >Quản lý Fanpage Facebook MiMi Beauty có đến hơn 12.000 Follower.
+          </a>
+        </p>
+        <p>
+          <i class="icon fas fa-briefcase"></i>Lập trình và phát triển 2 Website
+          cá nhân gồm:
+        </p>
+        <p>    + vochicuong-it.glitch.me</p>
+        <p>    + vochicuong-cv.glitch.me.</p>
+      </div>
+
+      <div class="section">
+        <h2>KỸ NĂNG</h2>
+        <p>C/C++</p>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 70%"></div>
+        </div>
+        <p>HTML</p>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 77%"></div>
+        </div>
+        <p>CSS</p>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 64%"></div>
+        </div>
+        <p>JavaScript</p>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 60%"></div>
+        </div>
+        <p>MySQL</p>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 50%"></div>
+        </div>
+        <p>Tiếng anh chuyên ngành</p>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 60%"></div>
         </div>
       </div>
+
+      <div class="section">
+        <h2>CHỨNG CHỈ</h2>
+        <p>
+          <i class="icon fa-solid fa-certificate"></i>Chứng chỉ Tin học văn
+          phòng - MOS.
+        </p>
+        <p>
+          <i class="icon fa-solid fa-certificate"></i>Chứng chỉ TOEIC với số
+          điểm 650.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>MỤC TIÊU NGHỀ NGHIỆP</h2>
+        <p>
+          <i class="icon fa-solid fa-thumbtack"></i>Mong muốn trở thành một lập
+          trình viên An toàn thông tin ưu tú nhất, thông qua những nổ lực cống
+          hiến và niềm đam mê của bản thân dành cho công ty.
+        </p>
+        <p>
+          <i class="icon fa-solid fa-thumbtack"></i>Được làm việc trong một môi
+          trường ổn định, có thể gắn bó lâu dài và thăng tiến hơn nữa trong công
+          việc tại công ty, phấn đấu để trở thành Leader của Team An toàn thông
+          tin với mức lương hợp lý đối với vị trí công việc hiện tại.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>HOẠT ĐỘNG</h2>
+        <p>
+          <i class="icon fa-solid fa-person-walking"></i>Tham gia chiến dịch
+          "Xuân tình nguyện - 2024" của trường Đại học Văn Hiến.
+        </p>
+        <p>
+          <i class="icon fa-solid fa-person-walking"></i>Tham gia Công tác tuyển
+          sinh năm 2023 của trường Đại học Văn Hiến.
+        </p>
+        <p>
+          <i class="icon fa-solid fa-person-walking"></i>Tình nguyện viên tham
+          gia phân phát thực phẩm và đồ dùng cho những người vô gia cư.
+        </p>
+        <p>
+          <i class="icon fa-solid fa-person-walking"></i>Tình nguyện viên tham
+          gia trồng cây xanh quanh công viên quận Tân Phú.
+        </p>
+      </div> -->
+
+      <div class="section">
+        <h2>SỞ THÍCH</h2>
+        <p>
+          <i class="icon fa-solid fa-book"></i> Đọc những tiểu thuyết trinh thám
+          và tâm lý tội phạm.
+        </p>
+        <p><i class="icon fa-solid fa-futbol"></i> Đá bóng.</p>
+      </div>
+
+      <div class="section">
+        <h2>TRÍCH DẪN YÊU THÍCH</h2>
+        <p>
+          <i class="icon fas fa-comment"></i>“Trong một thế giới đang thay đổi
+          rất nhanh chóng, lộ trình duy nhất đưa bạn đến thất bại là không dám
+          mạo hiểm.” – Mark Zuckerberg (CEO Metaverse).
+        </p>
+      </div>
+
+      <!--       <div class="section">
+        <h2>SỞ THÍCH CÁ NHÂN</h2>
+        <p><i class="icon fas fa-futbol"></i>Đá bóng</p>
+        <p><i class="icon fas fa-book"></i>Đọc sách</p>
+        <p><i class="icon fas fa-headphones"></i>Nghe nhạc</p>
+        <p><i class="icon fas fa-dumbbell"></i>Tập gym</p>
+      </div> -->
+
+      
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
   </body>
 </html>
