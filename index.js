@@ -44,4 +44,10 @@ window.addEventListener('scroll', function() {
         });
     });
 
-
+function toggleDarkMode() {
+      const body = document.body;
+      const sections = document.querySelectorAll('.section, .info-section');
+      
+      body.classList.toggle('dark-mode'); // Chuyển đổi lớp 'dark-mode' cho thẻ body
+      sections.forEach(section => section.classList.toggle('dark-mode')); // Chuyển đổi lớp 'dark-mode' cho các section
+    }

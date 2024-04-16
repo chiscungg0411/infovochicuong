@@ -83,6 +83,11 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
+body.dark-mode {
+      background-color: #333; /* Màu nền cho Dark Mode */
+      color: #fff; /* Màu chữ cho Dark Mode */
+    }
+
 .container {
   max-width: 800px;
   margin: 60px auto;
@@ -92,12 +97,18 @@ body {
   padding: 40px;
 }
 
+.container.dark-mode {
+      background-color: #222; /* Màu nền cho container trong Dark Mode */
+    }
+
 .avatar {
   margin-top: 20px;
   border-radius: 50%;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
   border: 7px dashed #ffffff;
 }
+
+
 
 a {
   text-decoration: none;
@@ -139,6 +150,7 @@ a {
   font-weight: bold;
   color: #ffffff;
 }
+
 .header p {
   font-size: 19px;
   color: #d5dbd6;
@@ -163,11 +175,11 @@ a {
   opacity: 1;
   transform: translateY(0);
 }
+
 .info-section.visible {
   opacity: 1;
   transform: translateY(0);
 }
-
 
 .section h2 {
   font-size: 25.5px;
@@ -185,7 +197,6 @@ a {
   font-weight: bold;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-
 
 .info-section {
   margin-bottom: 30px;
@@ -207,6 +218,7 @@ a {
   font-weight: bold;
   text-shadow: 1.5px 2.5px 1px rgba(0, 0, 0, 0.25);
 }
+
 .info-section p {
   font-size: 18px;
   color: #ffffff;
@@ -219,6 +231,12 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+
+.section.dark-mode,
+    .info-section.dark-mode {
+      background-color: #222; /* Màu nền cho section trong Dark Mode */
+      color: #ffffff; /* Màu chữ cho section trong Dark Mode */
+    }
 
 .info-section .icon {
   margin-right: 10px;
@@ -238,6 +256,7 @@ a {
   color: #666666;
   padding: 50px;
 }
+
 .footer p {
   font-size: 14px;
   color: #666666;
