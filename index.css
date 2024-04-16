@@ -93,19 +93,10 @@ body {
 }
 
 .avatar {
-/*   margin-top: 20px;
-  border-radius: 50%;
-  border: 5px dashed #ffffff;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); */
-  position: relative;
-  display: inline-block;
-}
-
-.avatar {
   margin-top: 20px;
   border-radius: 50%;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-  border: 5px dashed #ffffff;
+  border: 7px dashed #ffffff;
 }
 
 a {
