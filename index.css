@@ -91,14 +91,14 @@ body.dark-mode {
 .container {
   max-width: 800px;
   margin: 60px auto;
-  background: url("https://cdn.glitch.global/715f6b7e-8fd1-4fee-8cc2-2e85cf1551c6/12ed1aa4-0d9a-4cec-aba5-f609685265dd.image.png?v=1713179962837");
+  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/b40ba102-4898-4a33-80e0-a8cd59371c4a.image.png?v=1713287307030");
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
   padding: 40px;
 }
 
 .container.dark-mode {
-      background-color: #222; /* Màu nền cho container trong Dark Mode */
+      background-color: #000000; /* Màu nền cho container trong Dark Mode */
     }
 
 .avatar {
@@ -237,6 +237,12 @@ a {
       background-color: #222; /* Màu nền cho section trong Dark Mode */
       color: #ffffff; /* Màu chữ cho section trong Dark Mode */
     }
+.section.dark-mode p{
+  color: #ffffff;
+}
+.section.dark-mode a{
+  color: #ffffff;
+}
 
 .info-section .icon {
   margin-right: 10px;
