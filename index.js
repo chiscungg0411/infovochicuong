@@ -51,3 +51,4 @@ function toggleDarkMode() {
       body.classList.toggle('dark-mode'); // Chuyển đổi lớp 'dark-mode' cho thẻ body
       sections.forEach(section => section.classList.toggle('dark-mode')); // Chuyển đổi lớp 'dark-mode' cho các section
     }
+
