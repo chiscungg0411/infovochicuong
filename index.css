@@ -228,7 +228,7 @@ a {
 .icon {
   margin-right: 10px;
   color: #2980b9;
-  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
