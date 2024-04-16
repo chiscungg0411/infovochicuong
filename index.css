@@ -116,6 +116,9 @@ a {
   animation: dropFromTop 1.4s ease forwards; /* Áp dụng animation */
   border: 10px inset #ffffff;
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right bottom, #0282AA, #D9F6FF);
+
 }
 @keyframes dropFromTop {
   from {
