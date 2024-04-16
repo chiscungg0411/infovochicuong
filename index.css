@@ -120,14 +120,6 @@ a {
   border-image-source: linear-gradient(to right bottom, #03B4D7, #F9F9F9);
 }
 
-.mini-header {
-  border-radius: 10px;
-  opacity: -10;
-  padding: 30px;
-  height: 430px;
-  background-color: #191a28;
-  border-radius: inherit;
-}
 
 @keyframes dropFromTop {
   from {
@@ -190,6 +182,7 @@ a {
   color: #666666;
   line-height: 1.6;
   font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -235,7 +228,7 @@ a {
 .icon {
   margin-right: 10px;
   color: #2980b9;
-  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
