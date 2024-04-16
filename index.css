@@ -83,6 +83,21 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
+body.dark{
+  background: #000;
+  color: #fff;
+      }
+ 
+body.dark #header{
+  background: #3f3e3e;
+      }
+      body.dark #header #logo{
+  color: #fff;
+      }
+      body.dark #header #switch-mode{
+  color: #fff;
+      }
+
 .container {
   max-width: 800px;
   margin: 60px auto;
