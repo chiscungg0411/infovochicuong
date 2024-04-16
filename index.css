@@ -303,6 +303,7 @@ a {
 }
 .info-section .note p{
   font-style: italic;
+  margin-top: 5px;
  }
 
 .info-section a {
