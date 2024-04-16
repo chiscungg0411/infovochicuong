@@ -91,10 +91,11 @@ body.dark-mode {
 .container {
   max-width: 800px;
   margin: 60px auto;
-  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/b40ba102-4898-4a33-80e0-a8cd59371c4a.image.png?v=1713287307030");
+  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/8410e869-1003-4cc9-8661-a7f63e43826a.image.png?v=1713288006903");
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
   padding: 40px;
+  background-color: #ffffff;
 }
 
 .container.dark-mode {
