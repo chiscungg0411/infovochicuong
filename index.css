@@ -91,7 +91,7 @@ body.dark-mode {
 .container {
   max-width: 800px;
   margin: 60px auto;
-  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/8410e869-1003-4cc9-8661-a7f63e43826a.image.png?v=1713288006903");
+  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/54515381-791d-4cd5-88f4-24e3e58d8d32.jpg?v=1713288606805");
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
   padding: 40px;
@@ -99,8 +99,8 @@ body.dark-mode {
 }
 
 .container.dark-mode {
-      background-color: #000000; /* Màu nền cho container trong Dark Mode */
-    }
+      background:url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/427fdbd7-3bfe-4483-aff0-e77c29a54631.jpg?v=1713288484165");
+}
 
 .avatar {
   margin-top: 20px;
