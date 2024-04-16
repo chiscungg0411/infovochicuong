@@ -116,6 +116,9 @@ body.dark-mode {
       align-items: center;
     }
 
+    .dark-mode-icon i {
+      font-size: 24px; /* Kích thước của biểu tượng */
+    }
 .container {
   max-width: 800px;
   margin: 60px auto;

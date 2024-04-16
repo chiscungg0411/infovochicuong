@@ -46,9 +46,18 @@ window.addEventListener('scroll', function() {
 
 function toggleDarkMode() {
       const body = document.body;
-      const sections = document.querySelectorAll('.section, .info-section');
+      body.classList.toggle('dark-mode');
       
-      body.classList.toggle('dark-mode'); // Chuyển đổi lớp 'dark-mode' cho thẻ body
-      sections.forEach(section => section.classList.toggle('dark-mode')); // Chuyển đổi lớp 'dark-mode' cho các section
+      // Lấy biểu tượng Dark Mode
+      const darkModeIcon = document.getElementById('darkModeIcon');
+
+      // Kiểm tra trạng thái của Dark Mode
+      if (body.classList.contains('dark-mode')) {
+        // Nếu là Dark Mode, chuyển sang biểu tượng trăng
+        darkModeIcon.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        // Nếu là Light Mode, chuyển sang biểu tượng mặt trời
+        darkModeIcon.innerHTML = '<i class="fas fa-moon"></i>';
+      }
     }
 
