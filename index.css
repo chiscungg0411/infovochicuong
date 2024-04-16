@@ -1,79 +1,123 @@
-  @-webkit-keyframes snowflakes-fall {
-    0% {top:-10%}
-    100% {top:100%}
+@-webkit-keyframes snowflakes-fall {
+  0% {
+    top: -10%;
   }
-  @-webkit-keyframes snowflakes-shake {
-    0%,100% {-webkit-transform:translateX(0);transform:translateX(0)}
-    50% {-webkit-transform:translateX(80px);transform:translateX(80px)}
+  100% {
+    top: 100%;
   }
-  @keyframes snowflakes-fall {
-    0% {top:-10%}
-    100% {top:100%}
+}
+@-webkit-keyframes snowflakes-shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  @keyframes snowflakes-shake {
-    0%,100%{ transform:translateX(0)}
-    50% {transform:translateX(80px)}
+  50% {
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px);
   }
-  .snowflake {
-    color: #fff;
-    font-size: 1em;
-    font-family: Arial, sans-serif;
-    text-shadow: 0 0 5px #000;
-    position:fixed;
-    top:-10%;
-    z-index:9999;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-    cursor:default;
-    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
-    -webkit-animation-duration:10s,3s;
-    -webkit-animation-timing-function:linear,ease-in-out;
-    -webkit-animation-iteration-count:infinite,infinite;
-    -webkit-animation-play-state:running,running;
-    animation-name:snowflakes-fall,snowflakes-shake;
-    animation-duration:10s,3s;
-    animation-timing-function:linear,ease-in-out;
-    animation-iteration-count:infinite,infinite;
-    animation-play-state:running,running;
+}
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%;
   }
-  .snowflake:nth-of-type(0){
-    left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s
+  100% {
+    top: 100%;
   }
-  .snowflake:nth-of-type(1){
-    left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s
+}
+@keyframes snowflakes-shake {
+  0%,
+  100% {
+    transform: translateX(0);
   }
-  .snowflake:nth-of-type(2){
-    left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s
+  50% {
+    transform: translateX(80px);
   }
-  .snowflake:nth-of-type(3){
-    left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s
-  }
-  .snowflake:nth-of-type(4){
-    left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s
-  }
-  .snowflake:nth-of-type(5){
-    left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s
-  }
-  .snowflake:nth-of-type(6){
-    left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s
-  }
-  .snowflake:nth-of-type(7){
-    left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s
-  }
-  .snowflake:nth-of-type(8){
-    left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s
-  }
-  .snowflake:nth-of-type(9){
-    left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s
-  }
-  .snowflake:nth-of-type(10){
-    left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s
-  }
-  .snowflake:nth-of-type(11){
-    left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
-  }
+}
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+  -webkit-animation-duration: 10s, 3s;
+  -webkit-animation-timing-function: linear, ease-in-out;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-play-state: running, running;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 3s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-play-state: running, running;
+}
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s;
+}
+.snowflake:nth-of-type(1) {
+  left: 10%;
+  -webkit-animation-delay: 1s, 1s;
+  animation-delay: 1s, 1s;
+}
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  -webkit-animation-delay: 6s, 0.5s;
+  animation-delay: 6s, 0.5s;
+}
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  -webkit-animation-delay: 4s, 2s;
+  animation-delay: 4s, 2s;
+}
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  -webkit-animation-delay: 2s, 2s;
+  animation-delay: 2s, 2s;
+}
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  -webkit-animation-delay: 8s, 3s;
+  animation-delay: 8s, 3s;
+}
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  -webkit-animation-delay: 6s, 2s;
+  animation-delay: 6s, 2s;
+}
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  -webkit-animation-delay: 2.5s, 1s;
+  animation-delay: 2.5s, 1s;
+}
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  -webkit-animation-delay: 1s, 0s;
+  animation-delay: 1s, 0s;
+}
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  -webkit-animation-delay: 3s, 1.5s;
+  animation-delay: 3s, 1.5s;
+}
+.snowflake:nth-of-type(10) {
+  left: 25%;
+  -webkit-animation-delay: 2s, 0s;
+  animation-delay: 2s, 0s;
+}
+.snowflake:nth-of-type(11) {
+  left: 65%;
+  -webkit-animation-delay: 4s, 2.5s;
+  animation-delay: 4s, 2.5s;
+}
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -84,41 +128,43 @@ body {
 }
 
 body.dark-mode {
-      background-color: #333333; /* Màu nền cho Dark Mode */
-      color: #ffffff; /* Màu chữ cho Dark Mode */
-    }
+  background-color: #333333; /* Màu nền cho Dark Mode */
+  color: #ffffff; /* Màu chữ cho Dark Mode */
+}
 
 .dark-mode-toggle {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%; /* Tạo hình dạng tròn */
-      background-color: #333; /* Màu nền cho nút */
-      color: #fff; /* Màu chữ cho nút */
-      border: none; /* Loại bỏ viền */
-      outline: none; /* Loại bỏ đường viền khi được focus */
-      cursor: pointer;
-      transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi màu */
-      z-index: 9999; /* Đảm bảo nút hiển thị trên tất cả các phần khác */
-    }
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Tạo hình dạng tròn */
+  background-color: #2980b9; /* Màu nền cho nút */
+  color: #ffffff; /* Màu chữ cho nút */
+  border: none; /* Loại bỏ viền */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  outline: none; /* Loại bỏ đường viền khi được focus */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi màu */
+  z-index: 9999; /* Đảm bảo nút hiển thị trên tất cả các phần khác */
+}
 
-    .dark-mode-toggle:hover {
-      background-color: #555; /* Màu nền khi di chuột qua */
-    }
+.dark-mode-toggle:hover {
+  background-color: #555555; /* Màu nền khi di chuột qua */
+}
 
-    .dark-mode-icon {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.dark-mode-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .dark-mode-icon i {
-      font-size: 24px; /* Kích thước của biểu tượng */
-    }
+.dark-mode-icon i {
+  font-size: 24px; /* Kích thước của biểu tượng */
+}
+
 .container {
   max-width: 800px;
   margin: 60px auto;
@@ -130,7 +176,7 @@ body.dark-mode {
 }
 
 .container.dark-mode {
-      background:url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/427fdbd7-3bfe-4483-aff0-e77c29a54631.jpg?v=1713288484165");
+  background-color: #f6f6f6;
 }
 
 .avatar {
@@ -139,8 +185,6 @@ body.dark-mode {
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
   border: 7px dashed #ffffff;
 }
-
-
 
 a {
   text-decoration: none;
@@ -161,7 +205,7 @@ a {
   border: 10px inset #ffffff;
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
   border-image-slice: 1;
-  border-image-source: linear-gradient(to right bottom, #03B4D7, #F9F9F9);
+  border-image-source: linear-gradient(to right bottom, #03b4d7, #f9f9f9);
 }
 
 @keyframes dropFromTop {
@@ -221,7 +265,6 @@ a {
   text-shadow: 1.5px 2.5px 1px rgba(0, 0, 0, 0.25);
 }
 
-
 .section p {
   font-size: 18px;
   color: #666666;
@@ -232,13 +275,13 @@ a {
 
 .info-section {
   margin-bottom: 30px;
-  border: 10px outset #FFFFFF;
+  border: 10px outset #ffffff;
   padding-left: 15px;
   padding-right: 4px;
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translateY(20px);
-  background-color:#0854A8;
+  background-color: #0854a8;
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -259,26 +302,31 @@ a {
   text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.25);
 }
 
-.info-section a{
+.info-section a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.section.dark-mode,
-    .info-section.dark-mode {
-      background-color: #222; /* Màu nền cho section trong Dark Mode */
-      color: #ffffff; /* Màu chữ cho section trong Dark Mode */
-    }
-.section.dark-mode p{
+.section.dark-mode {
+  background-color: #222222; /* Màu nền cho section trong Dark Mode */
+  color: #ffffff; /* Màu chữ cho section trong Dark Mode */
+}
+
+.info-section.dark-mode {
+  background-color: #222222; /* Màu nền cho section trong Dark Mode */
+  color: #ffffff; /* Màu chữ cho section trong Dark Mode */
+}
+
+.section.dark-mode p {
   color: #ffffff;
 }
-.section.dark-mode a{
+.section.dark-mode a {
   color: #ffffff;
 }
 
 .info-section .icon {
   margin-right: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
