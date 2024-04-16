@@ -110,16 +110,25 @@ a {
   color: #ffffff;
   height: 430px;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 10px;
   opacity: -10;
   transform: translateY(0%); /* Dịch chuyển lên trên */
   animation: dropFromTop 1.4s ease forwards; /* Áp dụng animation */
   border: 10px inset #ffffff;
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
   border-image-slice: 1;
-  border-image-source: linear-gradient(to right bottom, #0282AA, #D9F6FF);
-
+  border-image-source: linear-gradient(to right bottom, #03B4D7, #F9F9F9);
 }
+
+.mini-header {
+  border-radius: 10px;
+  opacity: -10;
+  padding: 30px;
+  height: 430px;
+  background-color: #191a28;
+  border-radius: inherit;
+}
+
 @keyframes dropFromTop {
   from {
     opacity: 0;
