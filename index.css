@@ -103,6 +103,7 @@ a {
   text-decoration: none;
   color: #666666;
 }
+
 .header {
   text-align: center;
   margin-bottom: 30px;
@@ -120,7 +121,6 @@ a {
   border-image-source: linear-gradient(to right bottom, #03B4D7, #F9F9F9);
 }
 
-
 @keyframes dropFromTop {
   from {
     opacity: 0;
@@ -131,6 +131,7 @@ a {
     transform: translateY(0);
   }
 }
+
 .header h1 {
   font-size: 33.5px;
   margin-bottom: 10px;

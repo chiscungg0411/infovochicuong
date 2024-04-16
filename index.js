@@ -45,8 +45,3 @@ window.addEventListener('scroll', function() {
     });
 
 
-// Thêm sự kiện click vào nút chuyển đổi chế độ
-document.getElementById('toggle-dark-mode').addEventListener('click', function() {
-  // Toggle class 'dark-mode' cho thẻ body
-  document.body.classList.toggle('dark-mode');
-});
