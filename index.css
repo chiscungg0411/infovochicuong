@@ -194,7 +194,7 @@ a {
 .header {
   text-align: center;
   margin-bottom: 30px;
-  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/f69efa8c-eeb2-42a6-bac5-cbfbdfb9b9c2.image.png?v=1713442088454");
+  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/1a17ce82-54c7-499d-b7ce-a9b3798b9915.image.png?v=1713442604682");
   color: #ffffff;
   height: 430px;
   padding: 15px;
@@ -205,7 +205,7 @@ a {
   border: 10px inset #ffffff;
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
   border-image-slice: 1;
-  border-image-source: linear-gradient(to right bottom, #03b4d7, #f9f9f9);
+  border-image-source: linear-gradient(to right bottom, #0000000, #f9f9f9);
 }
 
 @keyframes dropFromTop {
@@ -281,7 +281,7 @@ a {
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translateY(20px);
-  background-color: #0854a8;
+  background-color: #000000;
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
