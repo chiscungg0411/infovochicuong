@@ -60,20 +60,4 @@ window.addEventListener('scroll', function() {
     });
 
 
-function toggleDarkMode() {
-      const body = document.body;
-      body.classList.toggle('dark-mode');
-      
-      // Lấy biểu tượng Dark Mode
-      const darkModeIcon = document.getElementById('darkModeIcon');
-
-      // Kiểm tra trạng thái của Dark Mode
-      if (body.classList.contains('dark-mode')) {
-        // Nếu là Dark Mode, chuyển sang biểu tượng trăng
-        darkModeIcon.innerHTML = '<i class="fas fa-sun"></i>';
-      } else {
-        // Nếu là Light Mode, chuyển sang biểu tượng mặt trời
-        darkModeIcon.innerHTML = '<i class="fas fa-moon"></i>';
-      }
-    }
 
