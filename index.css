@@ -127,44 +127,6 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
-body.dark-mode {
-  background-color: #333333; /* Màu nền cho Dark Mode */
-  color: #ffffff; /* Màu chữ cho Dark Mode */
-}
-
-.dark-mode-toggle {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%; /* Tạo hình dạng tròn */
-  background-color: #2980b9; /* Màu nền cho nút */
-  color: #ffffff; /* Màu chữ cho nút */
-  border: none; /* Loại bỏ viền */
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-  outline: none; /* Loại bỏ đường viền khi được focus */
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi màu */
-  z-index: 9999; /* Đảm bảo nút hiển thị trên tất cả các phần khác */
-}
-
-.dark-mode-toggle:hover {
-  background-color: #555555; /* Màu nền khi di chuột qua */
-}
-
-.dark-mode-icon {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dark-mode-icon i {
-  font-size: 24px; /* Kích thước của biểu tượng */
-}
-
 .container {
   max-width: 800px;
   margin: 60px auto;
@@ -175,9 +137,6 @@ body.dark-mode {
   background-color: #ffffff;
 }
 
-.container.dark-mode {
-  background-color: #f6f6f6;
-}
 
 .avatar {
   margin-top: 20px;
@@ -188,7 +147,7 @@ body.dark-mode {
 
 a {
   text-decoration: none;
-  color: #666666;
+  color: #000000;
 }
 
 .header {
@@ -236,7 +195,7 @@ a {
 
 .section {
   margin-bottom: 30px;
-  border: 3px dashed #2e6ca4;
+  border: 3px dashed #000000;
   padding-left: 15px;
   padding-right: 4px;
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -256,18 +215,22 @@ a {
   opacity: 1;
   transform: translateY(0);
 }
+.theend-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .section h2 {
   font-size: 25.5px;
   margin-bottom: 10px;
-  color: #2980b9;
+  color: #000000;
   font-weight: bold;
   text-shadow: 1.5px 2.5px 1px rgba(0, 0, 0, 0.25);
 }
 
 .section p {
   font-size: 18px;
-  color: #666666;
+  color: #000000;
   line-height: 1.6;
   font-weight: bold;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -304,28 +267,12 @@ a {
 .info-section .note p{
   font-style: italic;
   margin-top: 5px;
+  font-size: 15px;
  }
 
 .info-section a {
   color: #ffffff;
   text-decoration: none;
-}
-
-.section.dark-mode {
-  background-color: #222222; /* Màu nền cho section trong Dark Mode */
-  color: #ffffff; /* Màu chữ cho section trong Dark Mode */
-}
-
-.info-section.dark-mode {
-  background-color: #222222; /* Màu nền cho section trong Dark Mode */
-  color: #ffffff; /* Màu chữ cho section trong Dark Mode */
-}
-
-.section.dark-mode p {
-  color: #ffffff;
-}
-.section.dark-mode a {
-  color: #ffffff;
 }
 
 .info-section .icon {
@@ -336,9 +283,24 @@ a {
 
 .icon {
   margin-right: 10px;
-  color: #2980b9;
+  color: #000000;
   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+
+.theend-section {
+  margin-bottom: 30px;
+  border: 3px dashed #000000;
+  padding-left: 15px;
+  padding-right: 4px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  background-color: #ffffff;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
 
 .footer {
   text-align: center;
