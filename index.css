@@ -121,7 +121,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f6f6f6;
+  background-color: #18191A;
   margin: 0;
   padding: 0;
   transition: background-color 0.5s, color 0.5s;
@@ -136,7 +136,6 @@ body {
   padding: 40px;
   background-color: #ffffff;
 }
-
 
 .avatar {
   margin-top: 20px;
@@ -264,11 +263,11 @@ a {
   font-weight: bold;
   text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.25);
 }
-.info-section .note p{
+.info-section .note p {
   font-style: italic;
   margin-top: 5px;
   font-size: 15px;
- }
+}
 
 .info-section a {
   color: #ffffff;
@@ -286,7 +285,6 @@ a {
   color: #000000;
   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 
 .theend-section {
   margin-bottom: 30px;
@@ -329,7 +327,6 @@ a {
   color: #666666;
   padding: 50px;
 }
-
 
 .footer p {
   font-size: 14px;
