@@ -121,7 +121,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f6f6f6;
+  background-color: #1D2021;
   margin: 0;
   padding: 0;
   transition: background-color 0.5s, color 0.5s;
@@ -131,11 +131,10 @@ body {
 .container {
   max-width: 800px;
   margin: 60px auto;
-  background: url("https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/54515381-791d-4cd5-88f4-24e3e58d8d32.jpg?v=1713288606805");
+  background-color: #121314;
   border-radius: 7px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
   padding: 40px;
-  background-color: #ffffff;
   
 }
 
@@ -169,7 +168,7 @@ a {
   transform: translateY(0%); /* Dịch chuyển lên trên */
   animation: dropFromTop 1.4s ease forwards; /* Áp dụng animation */
   border-style: solid;
-  border-color: #000000 #8a8a8a;
+  border-color: #000000 #E6E6E6;
   border-width: 10px;
   box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.5);
 }
@@ -344,7 +343,7 @@ a {
 
 .footer p {
   font-size: 14px;
-  color: #666666;
+  color: #F9F9F9;
 }
 
 /* .progress-bar {
