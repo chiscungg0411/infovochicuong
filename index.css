@@ -209,7 +209,7 @@ a {
   margin-bottom: 30px;
   border-style: dashed;
   border-color: #000000 #E6E6E6;
-  border-width: 10px;
+  border-width: 6px;
   padding-left: 15px;
   padding-right: 4px;
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -282,6 +282,7 @@ a {
   font-style: italic;
   margin-top: 5px;
   font-size: 15px;
+  color: #d5dbd6;
 }
 
 .info-section a {
@@ -303,7 +304,7 @@ a {
 
 .theend-section {
   margin-bottom: 30px;
-  border: 3px dashed #ffffff;
+  border: 5px solid #ffffff;
   padding-left: 15px;
   padding-right: 4px;
   transition: opacity 0.5s ease, transform 0.5s ease;
