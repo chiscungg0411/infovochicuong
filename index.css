@@ -1,9 +1,6 @@
 html{
   cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728073350044'), auto;
 }
-a{
-  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/4.png?v=1728073137502', auto)
-}
 @-webkit-keyframes snowflakes-fall {
     0% {
       top: -10%;
@@ -160,7 +157,7 @@ a{
   a {
     text-decoration: none;
     color: #ffffff;
-    cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/4.png?v=1728073137502', auto);
+    cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/4.png?v=1728073137502'), auto;
   }
   
   .header {
