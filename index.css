@@ -1,3 +1,7 @@
+body {
+  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/alien-monster_1f47e-removebg-preview.png?v=1728069653359'), auto;
+  font-size: 2px;
+}
 @-webkit-keyframes snowflakes-fall {
   0% {
     top: -10%;
