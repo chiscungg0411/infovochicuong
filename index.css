@@ -37,8 +37,6 @@ html {
   50% {
     transform: translateX(80px);
   }
-  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'), auto;
-
 }
 .snowflake {
   cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'),;
@@ -161,7 +159,7 @@ body {
 a {
   text-decoration: none;
   color: #ffffff;
-  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'), auto;
+  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/4.png?v=1728072221915'), auto;
 }
 
 .header {
