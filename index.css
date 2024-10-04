@@ -37,9 +37,11 @@ html {
   50% {
     transform: translateX(80px);
   }
+  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'), auto;
+
 }
 .snowflake {
-  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'), auto;
+  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'),;
   color: #fff;
   font-size: 1em;
   font-family: Arial, sans-serif;
@@ -51,7 +53,6 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: default;
   -webkit-animation-name: snowflakes-fall, snowflakes-shake;
   -webkit-animation-duration: 10s, 3s;
   -webkit-animation-timing-function: linear, ease-in-out;
@@ -62,6 +63,7 @@ html {
   animation-timing-function: linear, ease-in-out;
   animation-iteration-count: infinite, infinite;
   animation-play-state: running, running;
+
 }
 .snowflake:nth-of-type(0) {
   left: 1%;
