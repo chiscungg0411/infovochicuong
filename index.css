@@ -1,7 +1,7 @@
-body {
-  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/alien-monster_1f47e-removebg-preview.png?v=1728069653359'), auto;
-  font-size: 2px;
+html {
+  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'), auto;
 }
+
 @-webkit-keyframes snowflakes-fall {
   0% {
     top: -10%;
@@ -39,6 +39,7 @@ body {
   }
 }
 .snowflake {
+  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'), auto;
   color: #fff;
   font-size: 1em;
   font-family: Arial, sans-serif;
@@ -158,6 +159,7 @@ body {
 a {
   text-decoration: none;
   color: #ffffff;
+  cursor: url('https://cdn.glitch.global/09f7002f-6f3d-499a-a038-3736bcf8caff/2.png?v=1728070715217'), auto;
 }
 
 .header {
