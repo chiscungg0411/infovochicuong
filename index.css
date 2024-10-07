@@ -366,12 +366,9 @@ html{
   .iconcuoi{
     text-align: center;
     margin-bottom: -70px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
   }
 
-  
+
   /* .progress-bar {
     height: 17px;
     width: 100%;
