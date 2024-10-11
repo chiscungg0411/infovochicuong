@@ -4,12 +4,11 @@ Chào mừng bạn đến với trang web cá nhân của tôi! Đây là một 
 
 ## Giới thiệu
 
-Trang web này được xây dựng bằng HTML, CSS và JavaScript, với mục đích chia sẻ thông tin về bản thân, sở thích, và các dự án mà tôi đã thực hiện. Nó cũng bao gồm một số tính năng tương tác và hiệu ứng động thú vị.
+Trang web này được xây dựng bằng HTML, CSS và JavaScript, với mục đích chia sẻ thông tin về bản thân, sở thích, và các dự án mà tôi đã thực hiện. Trang web này có Domain: **vochicuong.id.vn** mà tôi đã mua và sở hữu. Nó cũng bao gồm một số tính năng tương tác và hiệu ứng động thú vị.
 
 ## Vị trí
 
 **Nhà phát triển dự án**: Võ Chí Cường
-
 Tất cả các thành phần của dự án này đều được tôi phát triển và thiết kế, bao gồm lập trình, thiết kế giao diện và nội dung.
 
 
@@ -30,4 +29,8 @@ Nếu bạn có bất kỳ câu hỏi hoặc ý kiến nào, vui lòng liên h�
 - Email: vochicuong.bin04@gmail.com
 - LinkedIn: https://www.linkedin.com/in/vochicuongg/
 
-# Nếu bạn cần thêm bất kỳ thông tin gì hoặc muốn điều chỉnh nội dung, hãy cho tôi biết nhé!
+## Giấy phép
+
+- Dự án này được cấp phép theo Giấy phép MIT.  
+
+## Nếu bạn cần thêm bất kỳ thông tin gì hoặc muốn điều chỉnh nội dung, hãy cho tôi biết nhé!
