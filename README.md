@@ -33,4 +33,4 @@ Nếu bạn có bất kỳ câu hỏi hoặc ý kiến nào, vui lòng liên h�
 
 - Dự án này được cấp phép theo Giấy phép MIT.  
 
-## Nếu bạn cần thêm bất kỳ thông tin gì hoặc muốn điều chỉnh nội dung, hãy cho tôi biết nhé!
+**Nếu bạn cần thêm bất kỳ thông tin gì hoặc muốn điều chỉnh nội dung, hãy cho tôi biết nhé!**
