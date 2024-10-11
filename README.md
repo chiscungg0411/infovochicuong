@@ -20,5 +20,5 @@ Trang web này được xây dựng bằng HTML, CSS và JavaScript, với mục
 
 ## Liên hệ
 Nếu bạn có bất kỳ câu hỏi hoặc ý kiến nào, vui lòng liên hệ với tôi qua:
-= Email: vochicuong.bin04@gmail.com
+- Email: vochicuong.bin04@gmail.com
 - LinkedIn: https://www.linkedin.com/in/vochicuongg/
