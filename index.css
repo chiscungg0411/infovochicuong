@@ -388,20 +388,37 @@ html{
     color: #ffffff;
     text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
   }
-  
-  .footer {
+
+  .iconcuoi{
     text-align: center;
-    margin-top: 50px;
-    color: #666666;
-    padding: 50px;
   }
 
-  .footer p {
+  .info-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .info-footer p{
+    font-size: 13px;
+  }
+  
+  .info-footer a{
+    color: #c7c7c7;
+  }
+  .icon-footer {
+    margin-right: 5px;
+    color: #c7c7c7;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+    color: #666666;
     font-size: 11px;
     color: #AEAEAE;
   }
-  .iconcuoi{
-    text-align: center;
-    margin-bottom: -70px;
-  }
+
+  
+  
   
