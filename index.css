@@ -247,18 +247,15 @@ html{
   .section.visible {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 1s ease, transform 1s ease;
   }
   
   .info-section.visible {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 1s ease, transform 1s ease;
   }
   .theend-section.visible {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 1s ease, transform 1s ease;
   }
   
   .section h2 {
@@ -275,7 +272,21 @@ html{
     line-height: 1.6;
     font-weight: bold;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
   }
+
+.section.visible p:nth-child(1) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(2) { transition-delay: 0.4s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(3) { transition-delay: 0.6s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(4) { transition-delay: 0.8s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(5) { transition-delay: 1s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(6) { transition-delay: 1.2s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(7) { transition-delay: 1.4s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(8) { transition-delay: 1.6s; opacity: 1; transform: translateY(0); }
+.section.visible p:nth-child(9) { transition-delay: 1.8s; opacity: 1; transform: translateY(0); }
+
   
   .section .note p{
     font-style: italic;
@@ -302,6 +313,7 @@ html{
     transition: opacity 1s ease, transform 1s ease;
   }
   
+
   .info-section h2 {
     font-size: 25.5px;
     margin-bottom: 10px;
@@ -316,7 +328,21 @@ html{
     line-height: 1.6;
     font-weight: bold;
     text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
   }
+
+.info-section.visible p:nth-child(1) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(2) { transition-delay: 0.4s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(3) { transition-delay: 0.6s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(4) { transition-delay: 0.8s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(5) { transition-delay: 1s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(6) { transition-delay: 1.2s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(7) { transition-delay: 1.4s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(8) { transition-delay: 1.6s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(9) { transition-delay: 1.8s; opacity: 1; transform: translateY(0); }
+
   .info-section .note p {
     font-style: italic;
     margin-top: 5px;
@@ -371,6 +397,7 @@ html{
     background-color: #000000;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    transition: opacity 1s ease, transform 1s ease;
   }
   
   .theend-section h2 {
@@ -387,8 +414,14 @@ html{
     line-height: 1.6;
     font-weight: bold;
     text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
   }
   
+  .theend-section.visible p:nth-child(1) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
+  .theend-section.visible p:nth-child(2) { transition-delay: 0.4s; opacity: 1; transform: translateY(0); }
+
   .theend-section .icon {
     margin-right: 10px;
     color: #ffffff;

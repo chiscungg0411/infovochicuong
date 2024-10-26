@@ -66,6 +66,7 @@ window.addEventListener('scroll', function() {
 });
 
 
+
 window.addEventListener('scroll', function() {
     var sections = document.querySelectorAll('.over-section');
     var windowHeight = window.innerHeight;
