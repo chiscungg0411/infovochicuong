@@ -235,9 +235,12 @@ html{
     background-color: #000000;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease, border-color 0.3s;
   }
 
+  .info-section:hover {
+    border-color: #7eedf7;
+  }
   
 
   .info-section h2 {
