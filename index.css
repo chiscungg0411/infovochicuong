@@ -83,6 +83,10 @@ html{
     border-style: dashed;
     border-color: #ffffff #8a8a8a;
     border-width: 7px;
+    transition: border-color 0.3s
+  }
+  .avatar:hover {
+    border-color: #7eedf7;
   }
   
   .verify{
@@ -157,7 +161,11 @@ html{
     background-color: #000000;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease, border-color 0.3s;
+  }
+
+  .section:hover {
+    border-color: #7eedf7;
   }
  
 
@@ -229,6 +237,7 @@ html{
     border-radius: 10px;
     transition: opacity 1s ease, transform 1s ease;
   }
+
   
 
   .info-section h2 {
