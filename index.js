@@ -94,6 +94,3 @@ window.addEventListener('scroll', function() {
         }
     });
 });
-
-
-
