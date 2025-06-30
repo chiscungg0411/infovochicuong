@@ -311,6 +311,7 @@ html{
   }
   .icon-locket {
     margin-right: 8px;
+    margin-left: -3px;
     color: #ffffff;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
   }
