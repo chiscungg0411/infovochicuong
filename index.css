@@ -278,6 +278,8 @@ html{
 .info-section.visible p:nth-child(7) { transition-delay: 1.4s; opacity: 1; transform: translateY(0); }
 .info-section.visible p:nth-child(8) { transition-delay: 1.6s; opacity: 1; transform: translateY(0); }
 .info-section.visible p:nth-child(9) { transition-delay: 1.8s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(10) { transition-delay: 2s; opacity: 1; transform: translateY(0); }
+.info-section.visible p:nth-child(11) { transition-delay: 2.2s; opacity: 1; transform: translateY(0); }
 
   .info-section .note p {
     font-style: italic;
@@ -291,18 +293,22 @@ html{
     text-decoration: none;
   }
   
-  .info-section .icon {
-    margin-right: 12px;
-    color: #ffffff;
-    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
+
+  .info-section .icon-locket a {
+    margin-left: -10px;
   }
-  
+
   .section .note{
     text-align: right;
   }
   
   .icon {
     margin-right: 12px;
+    color: #ffffff;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .icon-locket {
+    margin-right: 8px;
     color: #ffffff;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
   }

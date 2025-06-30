@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
     }, 2000);
 });
 window.addEventListener('scroll', function() {
-    const sections = document.querySelectorAll('.section, .info-section, .theend-section');
+    const sections = document.querySelectorAll('.section, .info-section, .theend-section, ');
     const windowHeight = window.innerHeight;
 
     sections.forEach(section => {
